@@ -64,7 +64,7 @@ dependencies {
     kapt(libs.hilt.android.compiler)
 
     implementation(libs.retrofit2)
-
+    implementation(libs.gson)
 }
 
 // Allow references to generated code
