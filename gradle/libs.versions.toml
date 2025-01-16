@@ -11,6 +11,7 @@ activityCompose = "1.8.0"
 composeBom = "2024.04.01"
 retrofit2 = "2.11.0"
 gson = "2.11.0"
+gsonConverter = "2.11.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -31,6 +32,7 @@ androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit
 androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
 retrofit2 = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit2"}
 gson = { module = "com.google.code.gson:gson", version.ref = "gson"}
+gsonConverter = { module = "com.squareup.retrofit2:converter-gson", version.ref = "gsonConverter"}
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

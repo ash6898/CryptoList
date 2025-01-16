@@ -65,6 +65,7 @@ dependencies {
 
     implementation(libs.retrofit2)
     implementation(libs.gson)
+    implementation(libs.gsonConverter)
 }
 
 // Allow references to generated code
